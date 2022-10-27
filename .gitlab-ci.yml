@@ -1,0 +1,23 @@
+image: "python:3.9.13-slim"
+
+stages:
+  - Test
+
+before_script:
+  - python --version
+  - cat requirements.txt | grep -v '^wxPython' | xargs -n 1 pip install
+  - pip install -U -f https://extras.wxpython.org/wxPython4/extras/linux/gtk3/ubuntu-18.04 wxPython
+
+pytest:
+  stage: Test
+  script:
+  - pwd
+  - ls -l
+  - export PYTHONPATH="$PYTHONPATH:."
+  - python -c "import sys;print(sys.path)"
+  - cd logsim
+  - pytest --junitxml=report.xml
+  artifacts:
+    when: always
+    reports:
+      junit: report.xml

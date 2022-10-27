@@ -1,0 +1,385 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr "Hola"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-06 11:09+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: parse.py:391
+msgid " after which the state changes"
+msgstr "Hola"
+
+#: gui.py:1080
+msgid " to "
+msgstr "Hola"
+
+#: gui.py:1084
+msgid ".\n"
+msgstr "Hola"
+
+#: gui.py:1075
+msgid ""
+".\n"
+"Connection changed from "
+msgstr "Hola"
+
+#: gui.py:530
+msgid "About"
+msgstr "Hola"
+
+#: gui.py:746
+msgid "About Logsim"
+msgstr "Hola"
+
+#: gui.py:588
+msgid "Add"
+msgstr "Hola"
+
+#: gui.py:1194
+msgid "Choose a circuit definition file"
+msgstr "Hola"
+
+#: parse.py:377
+msgid "Clock half period must be greater than 0"
+msgstr "Hola"
+
+#: gui.py:1151
+msgid "Connection swap failed!"
+msgstr "Hola"
+
+#: gui.py:1108
+msgid "Connection swapped successfully"
+msgstr "Hola"
+
+#: network.py:98
+msgid "Connections must be swapped from output to output"
+msgstr "Hola"
+
+#: gui.py:1260
+msgid ""
+"Could not load file! File type must be a text file (*.txt)\n"
+"Would you like to open a different file?"
+msgstr "Hola"
+
+#: gui.py:1279
+msgid "Could not load file! File type must be a text file (*.txt)."
+msgstr "Hola"
+
+#: gui.py:1237
+msgid "Could not parse file! (Error message below) Please select a different file."
+msgstr "Hola"
+
+#: gui.py:1335
+msgid "Could not save image! File type must be PNG."
+msgstr "Hola"
+
+#: gui.py:568
+msgid "Cycles to run/continue for:"
+msgstr "Hola"
+
+#: parse.py:160 parse.py:555
+msgid "Device names cannot be Keywords: 'CIRCUIT',"
+msgstr "Hola"
+
+#: parse.py:362
+msgid "Device names must start with a letter and be alphanumeric"
+msgstr "Hola"
+
+#: parse.py:102 parse.py:103
+msgid "Error Count: {}"
+msgstr "Hola"
+
+#: scanner.py:354
+msgid ""
+"Error on line {}:\n"
+"\n"
+msgstr "Hola"
+
+#: gui.py:1265 gui.py:1282
+msgid "Error opening file"
+msgstr "Hola"
+
+#: gui.py:1337
+msgid "Error saving file"
+msgstr "Hola"
+
+#: gui.py:1089
+msgid "Error! Could not swap connection: "
+msgstr "Hola"
+
+#: gui.py:1135
+msgid "Error! Could not undo connection swap: "
+msgstr "Hola"
+
+#: gui.py:787
+msgid "Error! Network oscillating."
+msgstr "Hola"
+
+#: gui.py:547
+msgid "Exit"
+msgstr "Hola"
+
+#: parse.py:394 parse.py:411 parse.py:437 parse.py:463 parse.py:489
+#: parse.py:514
+msgid "Expected '('"
+msgstr "Hola"
+
+#: parse.py:407 parse.py:429 parse.py:455 parse.py:481 parse.py:507
+msgid "Expected ')'"
+msgstr "Hola"
+
+#: parse.py:325 parse.py:600 parse.py:660 parse.py:736
+msgid "Expected ';'"
+msgstr "Hola"
+
+#: parse.py:320
+msgid "Expected '=' or ','"
+msgstr "Hola"
+
+#: parse.py:604
+msgid "Expected '>'"
+msgstr "Hola"
+
+#: parse.py:114
+msgid "Expected 'CIRCUIT'"
+msgstr "Hola"
+
+#: parse.py:527
+msgid "Expected 'CONNECT'"
+msgstr "Hola"
+
+#: parse.py:137
+msgid "Expected 'DEVICES'"
+msgstr "Hola"
+
+#: parse.py:101
+msgid "Expected 'END'"
+msgstr "Hola"
+
+#: parse.py:699
+msgid "Expected 'MONITOR'"
+msgstr "Hola"
+
+#: parse.py:118 parse.py:141 parse.py:534 parse.py:719
+msgid "Expected '{'"
+msgstr "Hola"
+
+#: parse.py:126 parse.py:153 parse.py:548 parse.py:712
+msgid "Expected '}'"
+msgstr "Hola"
+
+#: parse.py:390
+msgid "Expected a number n > 0, the number of simulation cycles"
+msgstr "Hola"
+
+#: parse.py:433
+msgid "Expected number of inputs for AND gate (valid range:"
+msgstr "Hola"
+
+#: parse.py:459
+msgid "Expected number of inputs for NAND gate (valid range:"
+msgstr "Hola"
+
+#: parse.py:485
+msgid "Expected number of inputs for NOR gate (valid range:"
+msgstr "Hola"
+
+#: parse.py:511
+msgid "Expected number of inputs for OR gate (valid range: 1-16)"
+msgstr "Hola"
+
+#: parse.py:409
+msgid "Expected state, either 0(OFF) or 1(ON)"
+msgstr "Hola"
+
+#: gui.py:550
+msgid "File"
+msgstr "Hola"
+
+#: gui.py:1295
+msgid "File required"
+msgstr "Hola"
+
+#: network.py:91
+msgid "Input already connected"
+msgstr "Hola"
+
+#: network.py:89
+msgid "Input connected to input"
+msgstr "Hola"
+
+#: gui.py:742
+msgid ""
+"Logic Simulator\n"
+"Created by"
+msgstr "Hola"
+
+#: parse.py:355
+msgid "Names cannot be Keywords: 'CIRCUIT', 'DEVICES', 'CONNECT',"
+msgstr "Hola"
+
+#: parse.py:316
+msgid "Not a supported device, supported devices: CLOCK,"
+msgstr "Hola"
+
+#: parse.py:421 parse.py:447 parse.py:473 parse.py:499
+msgid "Number of inputs must be between 1-16"
+msgstr "Hola"
+
+#: gui.py:1113
+msgid "OK"
+msgstr "Hola"
+
+#: monitors.py:68
+msgid "Only output pins can be monitored"
+msgstr "Hola"
+
+#: gui.py:533
+msgid "Open File"
+msgstr "Hola"
+
+#: network.py:90
+msgid "Output connected to output"
+msgstr "Hola"
+
+#: parse.py:366
+msgid "Pin names must start with a letter and be alphanumeric"
+msgstr "Hola"
+
+#: gui.py:1095
+msgid "Please select a new connection to replace the connection you wish to remove.\n"
+msgstr "Hola"
+
+#: gui.py:1100
+msgid "Please select an existing connection to replace."
+msgstr "Hola"
+
+#: gui.py:603
+msgid "Remove"
+msgstr "Hola"
+
+#: gui.py:628
+msgid "Replace"
+msgstr "Hola"
+
+#: gui.py:616
+msgid "Replace connection:"
+msgstr "Hola"
+
+#: gui.py:554
+msgid "Reset View"
+msgstr "Hola"
+
+#: gui.py:575
+msgid "Restart"
+msgstr "Hola"
+
+#: gui.py:572
+msgid "Run"
+msgstr "Hola"
+
+#: gui.py:541
+msgid "Save Full Plot"
+msgstr "Hola"
+
+#: gui.py:544
+msgid "Save Image"
+msgstr "Hola"
+
+#: gui.py:538
+msgid "Save Visible Plot Area"
+msgstr "Hola"
+
+#: gui.py:1315
+msgid "Save file as ..."
+msgstr "Hola"
+
+#: gui.py:580
+msgid "Select a monitor point to add:"
+msgstr "Hola"
+
+#: gui.py:594
+msgid "Select a monitor point to remove:"
+msgstr "Hola"
+
+#: gui.py:608
+msgid "Select a switch to toggle:"
+msgstr "Hola"
+
+#: network.py:92
+msgid "Specified connection does not exist"
+msgstr "Hola"
+
+#: network.py:95 network.py:96 network.py:97
+msgid "Specified device does not exist"
+msgstr "Hola"
+
+#: network.py:93 network.py:94
+msgid "Specified port does not exist"
+msgstr "Hola"
+
+#: gui.py:1069
+msgid "Successfully swapped connection into "
+msgstr "Hola"
+
+#: gui.py:1131
+msgid "Successfully undid connection swap.\n"
+msgstr "Hola"
+
+#: monitors.py:69
+msgid "This monitor point is already present"
+msgstr "Hola"
+
+#: gui.py:1291
+msgid ""
+"This program requires you to load a circuit definition file.\n"
+"Would you like to select a file to load?"
+msgstr "Hola"
+
+#: gui.py:1114
+msgid "Undo"
+msgstr "Hola"
+
+#: gui.py:1143
+msgid "Undo status message"
+msgstr "Hola"
+
+#: gui.py:557
+msgid "View"
+msgstr "Hola"
+
+#: gui.py:1207
+msgid "You chose the following file:"
+msgstr "Hola"
+
+#: gui.py:1325
+msgid "You chose the following filename:"
+msgstr "Hola"
+
+#: gui.py:744
+msgid "and"
+msgstr "Hola"
+
+#: monitors.py:70
+msgid "monitor point does not exist"
+msgstr "Hola"
+
+#: parse.py:567
+msgid "unconnected inputs: "
+msgstr "Hola"
+
+#: gui.py:624
+msgid "with connection:"
+msgstr "Hola"

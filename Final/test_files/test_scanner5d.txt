@@ -1,0 +1,7 @@
+CIRCUIT
+{
+
+DEVICES
+{
+    SW1, SW2, SW3, SW4, SW5 = SWITCH(0);
+    nand1, nand2, nand3, nand4 = NAND(2];

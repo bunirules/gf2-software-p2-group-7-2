@@ -1,0 +1,524 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-06 11:09+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Logic Simulator"
+msgstr "Simulador Lógico اَلْعَرَبِيَّةُ"
+
+#: parse.py:391
+msgid " after which the state changes"
+msgstr " después de los cuales cambia el estado"
+
+#: gui.py:1080
+msgid " to "
+msgstr " a "
+
+#: gui.py:1084
+msgid ".\n"
+msgstr ".\n"
+
+#: gui.py:1075
+msgid ""
+".\n"
+"Connection changed from "
+msgstr  ""
+".\n"
+"La conexión cambió de "
+
+#: gui.py:530
+msgid "About"
+msgstr "Información"
+
+#: gui.py:746
+msgid "About Logsim"
+msgstr "Información de Logsim"
+
+#: gui.py:588
+msgid "Add"
+msgstr "Agregar"
+
+#: gui.py:1194
+msgid "Choose a circuit definition file"
+msgstr "Elija un archivo para simular 씨발"
+
+#: parse.py:377
+msgid "Clock half period must be greater than 0"
+msgstr "Periodo del reloj debe ser mayor que 0"
+
+#: gui.py:1151
+msgid "Connection swap failed!"
+msgstr "Error al intercambiar la conexión"
+
+#: gui.py:1108
+msgid "Connection swapped successfully"
+msgstr "Conexión intercambiada"
+
+#: network.py:98
+msgid "Connections must be swapped from output to output"
+msgstr "Las conexiones deben intercambiarse de salida a salida"
+
+#: gui.py:1260
+msgid ""
+"Could not load file! File type must be a text file (*.txt)\n"
+"Would you like to open a different file?"
+msgstr "¡No se pudo cargar el archivo! El tipo de archivo debe ser un archivo de texto (*.txt)\n"
+"¿Desea abrir un archivo diferente?"
+
+#: gui.py:1279
+msgid "Could not load file! File type must be a text file (*.txt)."
+msgstr "¡No se pudo cargar el archivo! El tipo de archivo debe ser un archivo de texto (*.txt)."
+
+#: gui.py:1237
+msgid "Could not parse file! (Error message below) Please select a different file."
+msgstr "¡No se pudo analizar el archivo! (Mensaje de error a continuación) Seleccione un archivo diferente."
+
+#: gui.py:1335
+msgid "Could not save image! File type must be PNG."
+msgstr "¡No se pudo guardar la imagen! El tipo de archivo debe ser PNG."
+
+#: gui.py:568
+msgid "Cycles to run/continue for:"
+msgstr "Ciclos para ejecutar/continuar:"
+
+#: parse.py:160 parse.py:555
+msgid "Device names cannot be Keywords: 'CIRCUIT',"
+msgstr "Nombres de dispositivos no pueden ser palabras clave: 'CIRCUIT',"
+
+#: parse.py:362
+msgid "Device names must start with a letter and be alphanumeric"
+msgstr "Nombres de dispositivos deben comenzar con una letra y ser alfanuméricos"
+
+#: parse.py:102 parse.py:103
+msgid "Error Count: {}"
+msgstr "Cuenta de errores: {}"
+
+#: scanner.py:354
+msgid ""
+"Error on line {}:\n"
+"\n"
+msgstr ""
+"Error en linea {}:\n"
+"\n"
+
+#: gui.py:1265 gui.py:1282
+msgid "Error opening file"
+msgstr "Error al abrir archivo"
+
+#: gui.py:1337
+msgid "Error saving file"
+msgstr "Error al guardar el archivo"
+
+#: gui.py:1089
+msgid "Error! Could not swap connection: "
+msgstr "¡Error! No se pudo intercambiar la conexión: "
+
+#: gui.py:1135
+msgid "Error! Could not undo connection swap: "
+msgstr "¡Error! No se pudo deshacer: "
+
+
+#: gui.py:547
+msgid "Exit"
+msgstr "Salir"
+
+#: parse.py:394 parse.py:411 parse.py:437 parse.py:463 parse.py:489
+#: parse.py:514
+msgid "Expected '('"
+msgstr "Esperaba '('"
+
+#: parse.py:407 parse.py:429 parse.py:455 parse.py:481 parse.py:507
+msgid "Expected ')'"
+msgstr "Esperaba ')'"
+
+#: parse.py:325 parse.py:600 parse.py:660 parse.py:736
+msgid "Expected ';'"
+msgstr "Esperaba ';'"
+
+#: parse.py:320
+msgid "Expected '=' or ','"
+msgstr "Esperaba '=' o ','"
+
+#: parse.py:604
+msgid "Expected '>'"
+msgstr "Esperaba '>'"
+
+#: parse.py:114
+msgid "Expected 'CIRCUIT'"
+msgstr "Esperaba 'CIRCUIT'"
+
+#: parse.py:527
+msgid "Expected 'CONNECT'"
+msgstr "Esperaba 'CONNECT'"
+
+#: parse.py:137
+msgid "Expected 'DEVICES'"
+msgstr "Esperaba 'DEVICES'"
+
+#: parse.py:101
+msgid "Expected 'END'"
+msgstr "Esperaba 'END'"
+
+#: parse.py:699
+msgid "Expected 'MONITOR'"
+msgstr "Esperaba 'MONITOR'"
+
+#: parse.py:118 parse.py:141 parse.py:534 parse.py:719
+msgid "Expected '{'"
+msgstr "Esperaba '{'"
+
+#: parse.py:126 parse.py:153 parse.py:548 parse.py:712
+msgid "Expected '}'"
+msgstr "Esperaba '}'"
+
+#: parse.py:390
+msgid "Expected a number n > 0, the number of simulation cycles"
+msgstr "Esperaba un numero n > 0, el número de ciclos de simulación"
+
+#: parse.py:433
+msgid "Expected number of inputs for AND gate (valid range:"
+msgstr "Esperaba número de señales de entrada para puerta AND (rango válido:"
+
+#: parse.py:459
+msgid "Expected number of inputs for NAND gate (valid range:"
+msgstr "Esperaba número de señales de entrada para puerta NAND (rango válido:"
+
+#: parse.py:485
+msgid "Expected number of inputs for NOR gate (valid range:"
+msgstr "Esperaba número de señales de entrada para puerta NOR (rango válido:"
+
+#: parse.py:511
+msgid "Expected number of inputs for OR gate (valid range: 1-16)"
+msgstr "Esperaba número de señales de entrada para puerta OR (rango válido:"
+
+#: parse.py:409
+msgid "Expected state, either 0(OFF) or 1(ON)"
+msgstr "Esperaba el estado, 0(APAGADO) o 1(ENCENDIDO)"
+
+#: gui.py:550
+msgid "File"
+msgstr "Archivo اَلْعَرَبِيَّةُ"
+
+#: gui.py:1295
+msgid "File required"
+msgstr "Archivo requerido"
+
+#: network.py:91
+msgid "Input already connected"
+msgstr "Entrada ya conectada"
+
+#: network.py:89
+msgid "Input connected to input"
+msgstr "Entrada conectada a entrada"
+
+#: gui.py:742
+msgid ""
+"Logic Simulator\n"
+"Created by"
+msgstr ""
+"Simulador Lógico\n"
+"Creado por"
+
+#: parse.py:355
+msgid "Names cannot be Keywords: 'CIRCUIT', 'DEVICES', 'CONNECT',"
+msgstr "Nombres no pueden ser palabras clave: 'CIRCUIT', 'DEVICES', 'CONNECT',"
+
+#: parse.py:316
+msgid "Not a supported device, supported devices: CLOCK,"
+msgstr "No es dispositivo compatible, dispositivos compatibles: CLOCK,"
+
+#: parse.py:421 parse.py:447 parse.py:473 parse.py:499
+msgid "Number of inputs must be between 1-16"
+msgstr "Numero de entradas debe ser entre 1-16"
+
+#: gui.py:1113
+msgid "OK"
+msgstr "OK"
+
+#: monitors.py:68
+msgid "Only output pins can be monitored"
+msgstr "Solo se pueden monitorear los pines de salida"
+
+#: gui.py:533
+msgid "Open File"
+msgstr "Abrir Archivo"
+
+#: network.py:90
+msgid "Output connected to output"
+msgstr "Salida conectada a salida"
+
+#: parse.py:366
+msgid "Pin names must start with a letter and be alphanumeric"
+msgstr "Nombres de pines deben comenzar con una letra y ser alfanuméricos"
+
+#: gui.py:1095
+msgid "Please select a new connection to replace the connection you wish to remove.\n"
+msgstr "Seleccione una nueva conexión para reemplazar la conexión que desea eliminar.\n"
+
+#: gui.py:1100
+msgid "Please select an existing connection to replace."
+msgstr "Seleccione una conexión existente para reemplazar."
+
+#: gui.py:603
+msgid "Remove"
+msgstr "Eliminar"
+
+#: gui.py:628
+msgid "Replace"
+msgstr "Reemplazar"
+
+#: gui.py:616
+msgid "Replace connection:"
+msgstr "Reemplazar conexión:"
+
+#: gui.py:554
+msgid "Reset View"
+msgstr "Reestablecer Vista"
+
+#: gui.py:575
+msgid "Restart"
+msgstr "Reiniciar"
+
+#: gui.py:572
+msgid "Run"
+msgstr "Ejecutar"
+
+#: gui.py:541
+msgid "Save Full Plot"
+msgstr "Guardar Imagen Completa"
+
+#: gui.py:544
+msgid "Save Image"
+msgstr "Guardar Imagen"
+
+#: gui.py:538
+msgid "Save Visible Plot Area"
+msgstr "Guardar área de imagen visible"
+
+#: gui.py:1315
+msgid "Save file as ..."
+msgstr "Guardar archivo como ..."
+
+#: gui.py:580
+msgid "Select a monitor point to add:"
+msgstr "Seleccione una señal para monitorear: "
+
+#: gui.py:594
+msgid "Select a monitor point to remove:"
+msgstr "Seleccione una señal para dejar de monitorear:"
+
+#: gui.py:608
+msgid "Select a switch to toggle:"
+msgstr "Seleccione un interruptor para alternar:"
+
+#: network.py:92
+msgid "Specified connection does not exist"
+msgstr "La conexión especificada no existe"
+
+#: network.py:95 network.py:96 network.py:97
+msgid "Specified device does not exist"
+msgstr "El dispositivo especificado no existe"
+
+#: network.py:93 network.py:94
+msgid "Specified port does not exist"
+msgstr "El puerto especificado no existe"
+
+#: gui.py:1069
+msgid "Successfully swapped connection into "
+msgstr "Conexión intercambiada con éxito a "
+
+#: gui.py:1131
+msgid "Successfully undid connection swap.\n"
+msgstr "Intercambio de conexión deshecho con éxito.\n"
+
+#: monitors.py:69
+msgid "This monitor point is already present"
+msgstr "Este punto ya está monitoreado"
+
+#: gui.py:1291
+msgid ""
+"This program requires you to load a circuit definition file.\n"
+"Would you like to select a file to load?"
+msgstr ""
+"Debes cargar un archivo para simular.\n"
+"¿Desea seleccionar un archivo para cargar?"
+
+#: gui.py:1114
+msgid "Undo"
+msgstr "Deshacer"
+
+#: gui.py:1143
+msgid "Undo status message"
+msgstr "Intentó deshacer intercambio"
+
+#: gui.py:557
+msgid "View"
+msgstr "Vista"
+
+#: gui.py:1207
+msgid "You chose the following file:"
+msgstr "Elegiste el siguiente archivo:"
+
+#: gui.py:1325
+msgid "You chose the following filename:"
+msgstr "Elegiste el siguiente nombre de archivo:"
+
+#: gui.py:744
+msgid "and"
+msgstr "y"
+
+#: monitors.py:70
+msgid "monitor point does not exist"
+msgstr "El punto no existe"
+
+#: parse.py:567
+msgid "unconnected inputs: "
+msgstr "estas entradas no están conectadas: "
+
+#: gui.py:624
+msgid "with connection:"
+msgstr "con conexión:"
+
+#: parse.py:619
+msgid "Expected '.' or ',' or ';'"
+msgstr "Esperaba '.' o ',' o ';'"
+
+#: userint.py:266
+msgid " cycles"
+msgstr " ciclos"
+
+#: userint.py:279
+msgid "Continuing for"
+msgstr "Continuando durante"
+
+#: userint.py:233
+msgid "Error! Could not make monitor."
+msgstr "¡Error! No pudo monitorear señal."
+
+#: userint.py:136
+msgid "Error! Expected a name."
+msgstr "¡Error! Esperaba un nombre."
+
+#: userint.py:182
+msgid "Error! Expected a number."
+msgstr "¡Error! Esperaba un número."
+
+#: userint.py:221
+msgid "Error! Invalid switch."
+msgstr "¡Error! Interuptor desconocido."
+
+#: userint.py:254
+msgid "Error! Network oscillating."
+msgstr "¡Error! La red está oscilando."
+
+#: userint.py:276
+msgid "Error! Nothing to continue. Run first."
+msgstr "¡Error! Nada para continuar. Debe ejectuar antes de continuar."
+
+#: userint.py:154
+msgid "Error! Unknown name."
+msgstr "¡Error! Nombre desconocido."
+
+#: userint.py:101
+msgid "Invalid command. Enter 'h' for help."
+msgstr "Comando inválido. Ingrese 'h' para obtener ayuda."
+
+#: userint.py:83
+msgid ""
+"Logic Simulator: interactive command line user interface.\n"
+"Enter 'h' for help."
+msgstr ""
+"Simulador Lógico: interfaz de usuario textual."
+"Ingrese 'h' para obtener ayuda."
+
+#: userint.py:196
+msgid "Number out of range."
+msgstr "Número fuera de rango."
+
+#: userint.py:266
+msgid "Running for "
+msgstr "Ejecutando durante "
+
+#: userint.py:231
+msgid "Successfully made monitor."
+msgstr "Señal monitoreado."
+
+#: userint.py:219
+msgid "Successfully set switch."
+msgstr "Interuptor configurado con exito."
+
+#: userint.py:241
+msgid "Successfully zapped monitor"
+msgstr "Dejo de monitorear señal."
+
+#: userint.py:280
+msgid "Total:"
+msgstr "Total:"
+
+#: userint.py:203
+msgid "User commands:"
+msgstr "Comandos de usuario:"
+
+#: userint.py:205
+msgid "c N       - continue the simulation for N cycles"
+msgstr "c N       - continuar la simulación durante N ciclos"
+
+#: userint.py:279
+msgid "cycles."
+msgstr "ciclos."
+
+#: userint.py:209
+msgid "h         - help (this command)"
+msgstr "h         - ayuda (este comando)"
+
+#: userint.py:207
+msgid "m X       - set a monitor on signal X"
+msgstr "m X       - monitorear la señal X"
+
+#: userint.py:210
+msgid "q         - quit the program"
+msgstr "q         - salir"
+
+#: userint.py:204
+msgid "r N       - run the simulation for N cycles"
+msgstr "r N       - ejecutar la simulación durante N ciclos"
+
+#: userint.py:206
+msgid "s X N     - set switch X to N (0 or 1)"
+msgstr "s X N     - poner el interruptor X en N (0 or 1)"
+
+#: userint.py:208
+msgid "z X       - zap the monitor on signal X"
+msgstr "z X       - dejar de monitorear la señal X"
+
+
+msgid "Error: invalid command line arguments\n"
+msgstr "Error: argumentos de línea de comandos no válidos\n"
+
+
+msgid "Error: When using GUI, do not give any arguments.\n"
+msgstr "Error: no use ningún parámetro al usar la gui.\n"
+
+
+msgid "Usage:\n"
+"Show help: logsim.py -h\n"
+"Command line user interface: logsim.py -c <file path>\n"
+"Graphical user interface: logsim.py"
+msgstr "Uso:\n"
+"Ayuda: logsim.py -h\n"
+"Interfaz de usuario textual: logsim.py -c <ruta de archivo>\n"
+"interfaz gráfica del usuario: logsim.py"

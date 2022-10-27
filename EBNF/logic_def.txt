@@ -1,0 +1,45 @@
+network = circuit, "END";
+
+circuit  = "CIRCUIT", "{", devices, connections, monitorlist, "}";
+
+devices = "DEVICES", "{", device, { device }, "}";
+
+device = devicename, {",", devicename}, "=",  ( clock | switch | and | nand | or | nor | dtype | xor | not), ";";
+
+name = letter, { character };
+
+clock = "CLOCK", "(", number, ")";
+
+number = nonzerodigit, { digit };
+
+switch = "SWITCH", "(", ( "1" | "0" ), ")";
+
+and = "AND", "(", number, ")";
+
+nand = "NAND", "(", number, ")";
+
+or = "OR", "(", number, ")";
+
+nor = "NOR", "(", number, ")";
+
+dtype = "DTYPE";
+
+xor = "XOR";
+
+not = "NOT";
+
+character = letter | digit;
+
+connections = "CONNECT", "{", con, { con }, "}";
+
+con = point, ">", point, {",", point}, ";";
+
+point = devicename, [".", pinname];
+
+devicename = name;
+
+pinname = name;
+
+monitorlist = "MONITOR", "{", monitor, { monitor }, "}";
+
+monitor = point, ";";

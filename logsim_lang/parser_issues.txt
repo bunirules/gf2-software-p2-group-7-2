@@ -1,0 +1,4 @@
+parser issues:
+
+- wrong symbol at end of section list causes issues
+  (see pytests)

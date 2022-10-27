@@ -1,0 +1,45 @@
+CIRCUIT
+{
+
+DEVICES
+{
+    SW1, SW2, SW3, SW4, SW5 = SWITCH(0);
+    nand1, nand2, nand3/ nand4 = NAND(2);
+    nor1, nor2 = NOR(2);
+    xor1, xor2 = XOR;
+    or1 = OR(2);
+    and1 = AND(2);
+    CL1 = CLOCK(20);
+    dt1 = DTYPE;
+}
+
+\\/?£!"^%*\\
+
+CONNECT
+{
+    SW1 > xor1.I1, or1.I1;
+    SW2 > xor1.I2, nor1.I1;
+    SW3 > or1.I2, nor1.I2;
+    xor1 > nand1.I1, nor2.I1;
+    or1 > nand1.I2;
+    nor1 > nand2.I2, nand3.I2;
+    nand1 > nand2.I1;
+    nand2 > nor2.I2, nand3.I1;
+    nor2 > and1.I1, xor2.I1;
+    nand3 > and1.I2, nand4.I2;
+    and1 > dt1.DATA;
+    CL1 > dt1.CLK;
+    SW4 > dt1.SET;
+    SW5 > dt1.CLEAR;
+    dt1.Q > xor2.I2;
+    dt1.QBAR > nand4.I1;
+}
+
+MONITOR
+{
+    xor2; nand4;
+}
+
+}
+
+END
